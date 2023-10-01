@@ -27,9 +27,6 @@ Structure:
 ## Data cleaning and Transformation
 ### Identifying errors and cleaning.
 For 2020 data,
-
-<iframe width="402" height="346" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=185CDBC2D755C54B%21815&authkey=%21AL4XjpEGNvpYvZE&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
-
 Columns M, T, U, AB, and AC had mixed data types that is percentage and general.  
 Columns AI, AK, and AM had incorrect data. The 3 columns where asking the amount of time spent doing different activities when your remote working and on-site working. The columns had greater than 24 hours and less than 0 hours of working which is unrealistic. You can't spend 60 or -1 hours working.
 
