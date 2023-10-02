@@ -54,6 +54,12 @@ Columns transformed in 2021 data are; Column AX to Column BM
 
 ![](2021_power_query.jpg)
 ---
+#### 2020 workbook
+[![Iteract with 2020 workbook](2020_workbook.jpg)](https://onedrive.live.com/embed?resid=185CDBC2D755C54B%21816&authkey=!AEjv3ZppSlno23I&em=2)
+---
+#### 2021 workbook
+[![Iteract with 2021 workbook](2021_workbook.jpg)](https://onedrive.live.com/embed?resid=185CDBC2D755C54B%21815&authkey=!AL4XjpEGNvpYvZE&em=2)
+---
 
 ## Analysis
 Pivot tables were used to summarise data and get insights also excel functions were used
@@ -75,3 +81,8 @@ Pivot tables show the following analysis
 The analysis for distribution of time usage in different activities when remote working and on-site working a function `=MODE('table'!$column1:$column1)` was used.
 
 ![](table.jpg)
+
+## Visualization
+![](report_page1.jpg)
+
+![](report_page2.jpg)
