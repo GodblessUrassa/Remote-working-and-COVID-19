@@ -11,12 +11,6 @@ Questions that will help us to understand the productivity, morale of working re
 3.	How does an employees use of time differ when working remotely vs on-site?
 4.	What are the biggest barriers to overcome if remote work becomes the norm in the future?
 
-## Thought Process
-* Understanding the data
-* Data cleaning and transformation 
-* Analysis
-* Visualization
-
 ## Understanding Data
 The data has two csv files. One is for 2020 which is the year COVID-19 was spreading rapidly and many countries had restrictions concerning public gatherings. It collected data about remote working before and during pandemic and expectations after the pandemic. The second one was for 2021 were restrictions are less tight. It collected data on the last month's of 2020, managers opinions on remote working and others. I can say data in both files were 80% categorical data.
 
@@ -32,16 +26,21 @@ Columns AI, AK, and AM had incorrect data. The 3 columns where asking the amount
 
 For 2021 data, columns J, K, L,M, N, Q, R, and T had mixed data types that is percentage and general. 
 
-All columns with mixed data types were all formated to have same data types using find and replace feature.
+All columns with mixed data types were all formated to have same data types using find and replace feature and Incorrect data, records with greater than 24 hours of working were deleted while with -1 was corrected to 1 hour.
 
+**_find and replace_**
 ![](find_and_replace.jpg)
----
-For Incorrect data, records with greater than 24 hours of working were deleted while with -1 was corrected to 1 hour.
 
 ### Transformation
-Since the data analysed was categorical and one respondent is asked more than 5 unique questions. The data needs to be changed its structure for easy analysis. Power query was used to transform the data. Actions done during transformation are removing unwanted columns, unpivoting wanted columns, replace values, and renaming values.
+The data needs to be changed its structure for easy analysis. Questions that were in multiple choice form they were transformed so as to get number of respondents that choose a certain category from the question. Power query was used to transform the data. Actions done during transformation are removing unwanted columns, unpivoting wanted columns, replace values, and renaming values.
 
-![](2020_power_query.jpg)
+|2020 power query|
+|---|
+|![](2020_power_query.jpg)|
+---
+|2021 power query|
+|---|
+|![](2021_power_query.jpg)|
 ---
 Each transformation was purposely made for answering analytical questions. 
 Columns transformed in 2020 data are;  
@@ -50,22 +49,25 @@ Columns transformed in 2020 data are;
 * _From the following, please select the least significant barrier to doing your work remotely - Connectivity (internet connection) ; Feeling left out and/or isolated ; Poor management ; Cyber security ; Lack of motivation ; Lack of motivation_
 * _From the following, please select the most significant barrier to doing your work remotely - Connectivity (internet connection) ; Feeling left out and/or isolated ; Poor management ; Cyber security ; Lack of motivation ; Lack of motivation_
 
-Columns transformed in 2021 data are; Column AX to Column BM
+Columns transformed in 2021 data are; **Column AX to Column BM**
 
-![](2021_power_query.jpg)
----
 #### 2020 workbook
+#### Click the workbook image to interact
+
 [![Iteract with 2020 workbook](2020_workbook.jpg)](https://1drv.ms/x/s!AkvFVdfC21wYhjE086F1jR-Mut2m)
 ---
 #### 2021 workbook
+#### Click the workbook image to interact
+
 [![Iteract with 2021 workbook](2021_workbook.jpg)](https://1drv.ms/x/s!AkvFVdfC21wYhjOp59hTMcK67gKn)
 ---
 
 ## Analysis
 Pivot tables were used to summarise data and get insights also excel functions were used
-|Pivot tables| |
-|---|---|
-|![](pivot_tables1.jpg)|![](pivot_tables2.jpg)|
+|Pivot tables|
+|---|
+|![](pivot_tables1.jpg)|
+|![](pivot_tables2.jpg)|
 
 Pivot tables show the following analysis
 * (A) Analysis of time spent in remote working before pandemic
