@@ -1,15 +1,7 @@
 # REMOTE WORK AND COVID-19
 ![](office_covid.jpg)
 ---
-Remote work is the practice of working from one's home or another space rather than from an office. The practice began at a small scale in the 1970s, when technology was developed that linked satellite offices to downtown mainframes through dumb terminals using telephone lines as a network bridge. It became more common in the 1990s and 2000s, facilitated by internet technologies. In 2020, workplace hazard controls for COVID-19 catalyzed a rapid transition to remote work for white-collar workers around the world, which largely persisted even after restrictions were lifted.
-
-The purpose of this analysis is to assess the productivity and morale implications of working remotely and outline an ideal policy for the post-pandemic future. I used a survey results of 1,500 remote workers from the Australian state of New South Wales, taken in August-September 2020 and March-April 2021. You can access the survey results [here](https://app.mavenanalytics.io/datasets?page=3)
-
-Questions that will help us to understand the productivity, morale of working remotely and a policy for post-pandemic future are as follows;
-1.	How has the COVID-19 pandemic impacted the amount of work done remotely? What can be expected post-pandemic?
-2.	Does working remotely positively impact productivity? Are there any other benefits?
-3.	How does an employees use of time differ when working remotely vs on-site?
-4.	What are the biggest barriers to overcome if remote work becomes the norm in the future?
+The purpose of this analysis is to assess the **productivity and morale implications of working remotely and outline an ideal policy for the post-pandemic future**. I used a survey results of 1,500 remote workers from the Australian state of New South Wales, taken in August-September 2020 and March-April 2021. You can access the survey results [here](https://app.mavenanalytics.io/datasets?page=3)
 
 ## Understanding Data
 The data has two csv files. One is for 2020 which is the year COVID-19 was spreading rapidly and many countries had restrictions concerning public gatherings. It collected data about remote working before and during pandemic and expectations after the pandemic. The second one was for 2021 were restrictions are less tight. It collected data on the last month's of 2020, managers opinions on remote working and others. I can say data in both files were 80% categorical data.
@@ -18,6 +10,64 @@ Structure:
 * 2020 - 1507 records and 73 columns
 * 2021 - 1512 records and 109 columns
 
+<br/>
+Questions that will help us to understand the productivity, morale of working remotely and a policy for post-pandemic future are as follows;
+
+<br/>
+<br/>
+
+1.	How has the COVID-19 pandemic impacted the amount of work done remotely? What can be expected post-pandemic?
+
+The impact of COVID-19 pandemic can be assesed by the amount of time spent working remotely before pandemic and during pandemic.
+
+<br/>
+
+![](impact_covid19.jpg)
+
+<br/>
+2.	Does working remotely positively impact productivity? Are there any other benefits?
+
+<br/>
+<br/>
+<br/>
+
+![](productivity.jpg)
+
+<br/>
+
+3.	How does an employees use of time differ when working remotely vs on-site?
+
+<br/>
+
+![](time_distribution.jpg)
+
+Additional question, is the working hours truly the same between remote working and in-office. If is "YES" then we expect the number of working hours in remote working to be last worst experiences but it is among the top 5 worst experience remote workers face this is because they take regular breaks **in-between** working hours.
+
+<br/>
+
+4.	What are the biggest barriers to overcome if remote work becomes the norm in the future?
+<br/>
+One of the reasons for policies to be created/improved is to eradicate or minimize problems that are present in a particular environment. If after certain period of time the created/improved policies haven't solved problems then they should be re-constructed. So by using this perception we can check if the policies in remote working have changed/improved and solved the remote working problems.
+
+ # 73% 
+ of companies changed/improved their remote working policies
+
+<br/>
+
+![](policy.jpg)
+
+<br/>
+
+## Conclusion
+From the analysis, employees don't prefer 100% remote working, their productivity when working remotely is the same to than in-office, remote workers have good work-life balance. So Hybrid working is the future (a flexible working model where employees work partly in physical workingplace and partly physical remotely). This will boost their morale, improve work-life balance and productivity
+
+Companies that change/improve their policies in remote working, they should address the barriers faced in remote working and monitor closely the working hours to increase productivity
+
+## Visualization
+![](report_page1.jpg)
+![](report_page2.jpg)
+
+## Methodology
 ## Data cleaning and Transformation
 ### Identifying errors and cleaning.
 For 2020 data,
@@ -89,7 +139,4 @@ The analysis for distribution of time usage in different activities when remote 
 
 ![](table.jpg)
 
-## Visualization
-![](report_page1.jpg)
 
-![](report_page2.jpg)
