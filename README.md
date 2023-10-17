@@ -63,7 +63,12 @@ Columns transformed in 2021 data are; **Column AX to Column BM**
 ---
 
 ## Analysis
-Pivot tables were used to summarise data and get insights also excel functions were used
+Two types of analysis were carried;
+
+a) **Frequency distribution**. Used to determine the number of observations in each multiple choice. Pivot tables were used to summarise data and get insights
+
+b) **Mode**. Which was used to determine which category appears most frequently in the data. Excel function was used
+
 |Pivot tables|
 |---|
 |![](pivot_tables1.jpg)|
