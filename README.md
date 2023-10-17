@@ -68,8 +68,11 @@ Companies that change/improve their policies in remote working, they should addr
 ![](report_page2.jpg)
 
 ## Methodology
-## Data cleaning and Transformation
-### Identifying errors and cleaning.
+### 1. Data cleaning and Transformation
+
+**Identifying errors and cleaning.**
+
+<br/>
 For 2020 data,
 Columns M, T, U, AB, and AC had mixed data types that is percentage and general.  
 Columns AI, AK, and AM had incorrect data. The 3 columns where asking the amount of time spent doing different activities when your remote working and on-site working. The columns had greater than 24 hours and less than 0 hours of working which is unrealistic. You can't spend 60 or -1 hours working.
@@ -81,7 +84,8 @@ All columns with mixed data types were all formated to have same data types usin
 **_find and replace_**
 ![](find_and_replace.jpg)
 
-### Transformation
+**Transformation**
+
 The data needs to be changed its structure for easy analysis. Questions that were in multiple choice form they were transformed so as to get number of respondents that choose a certain category from the question. Power query was used to transform the data. Actions done during transformation are removing unwanted columns, unpivoting wanted columns, replace values, and renaming values.
 
 |2020 power query|
@@ -112,7 +116,7 @@ Columns transformed in 2021 data are; **Column AX to Column BM**
 [![Iteract with 2021 workbook](2021_workbook.jpg)](https://1drv.ms/x/s!AkvFVdfC21wYhjOp59hTMcK67gKn)
 ---
 
-## Analysis
+### 2. Analysis
 Two types of analysis were carried;
 
 a) **Frequency distribution**. Used to determine the number of observations in each multiple choice. Pivot tables were used to summarise data and get insights
